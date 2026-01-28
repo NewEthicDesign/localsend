@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Free Communication & File Sharing Tools</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f5;
+      color: #222;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin: 0.75rem 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    .note {
+      background: #fff;
+      border-left: 4px solid #444;
+      padding: 1rem;
+      margin: 1.5rem 0;
+    }
+    .small {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    a {
+      color: #222;
+      text-decoration: underline;
+      word-break: break-word;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+<main>
+
+<h1>Free Tools for Private Communication & File Sharing</h1>
+
+<!-- Tor Browser Link (exact text you requested) -->
+<p><strong>New to privacy? Use Tor to access blocked links safely. Download the Tor Browser:</strong> 
+<a href="https://www.torproject.org/download/">https://www.torproject.org/download/</a></p>
+
+<!-- IPFS Placeholder -->
+<p>Mirror this page on IPFS: 
+  <a href="https://ipfs.io/ipfs/YOUR_IPFS_HASH_HERE">https://ipfs.io/ipfs/YOUR_IPFS_HASH_HERE</a>
+</p>
+
+<p>
+Most online platforms are built to extract attention, data, and control.
+This page points to tools that prioritize
+<strong>privacy, autonomy, and resilience</strong>.
+</p>
+
+<p>
+You don’t need all of these.
+Pick what fits your situation and your people.
+</p>
+
+<div class="note">
+This page works offline and is meant to be shared.
+</div>
+
+<h2>Messaging</h2>
+<ul>
+  <li>
+    <strong>Signal</strong> — Encrypted messaging app, widely used and practical.<br/>
+    <a href="https://signal.org">signal.org</a> |
+    <a href="https://github.com/signalapp">source</a>
+  </li>
+
+  <li>
+    <strong>Briar</strong> — Peer-to-peer messaging, works without internet (Android).<br/>
+    <a href="https://briarproject.org">briarproject.org</a> |
+    <a href="https://f-droid.org/packages/org.briarproject.briar.android">F-Droid</a><br/>
+    <span class="small">Works over Bluetooth, Wi-Fi, or Tor.</span>
+  </li>
+
+  <li>
+    <strong>Session</strong> — Anonymous messaging with no phone number.<br/>
+    <a href="https://getsession.org">getsession.org</a> |
+    <a href="https://github.com/oxen-io">GitHub mirror</a><br/>
+    <span class="small">Routed through a decentralized network.</span>
+  </li>
+</ul>
+
+<h2>File sharing</h2>
+<ul>
+  <li>
+    <strong>Syncthing</strong> — Decentralized file syncing between your devices.<br/>
+    <a href="https://syncthing.net">syncthing.net</a> |
+    <a href="https://github.com/syncthing">GitHub mirror</a><br/>
+    <span class="small">Works over internet or local networks; no cloud server.</span>
+  </li>
+
+  <li>
+    <strong>OnionShare</strong> — Send files directly, no middleman.<br/>
+    <a href="https://onionshare.org">onionshare.org</a> |
+    <a href="https://github.com/onionshare">GitHub mirror</a><br/>
+    <span class="small">Uses Tor; hard to censor.</span>
+  </li>
+
+  <li>
+    <strong>Magic Wormhole</strong> — One-time code encrypted file transfers.<br/>
+    <a href="https://magic-wormhole.readthedocs.io">docs</a> |
+    <a href="https://github.com/magic-wormhole">GitHub mirror</a>
+  </li>
+
+  <li>
+    <strong>IPFS</strong> — Content-addressed file sharing, ideal for mirrors.<br/>
+    <a href="https://ipfs.tech">ipfs.tech</a> |
+    <a href="https://docs.ipfs.tech">docs</a>
+  </li>
+</ul>
+
+<h2>Spreadsheets & documents</h2>
+<ul>
+  <li>
+    <strong>CryptPad</strong> — Encrypted collaborative docs and spreadsheets.<br/>
+    <a href="https://cryptpad.fr/features.html">cryptpad.fr/features.html</a> |
+    <a href="https://github.com/cryptpad">source</a><br/>
+    <span class="small">Server cannot read your content; privacy-focused.</span>
+  </li>
+
+  <li>
+    <strong>OnlyOffice</strong> — Full-feature office suite (docs, spreadsheets, presentations).<br/>
+    <a href="https://www.onlyoffice.com/">onlyoffice.com</a><br/>
+    <span class="small">Feature-rich, but not encrypted by default.</span>
+  </li>
+
+  <li>
+    <strong>LibreOffice</strong> — Offline documents and spreadsheets, no account needed.<br/>
+    <a href="https://www.libreoffice.org">libreoffice.org</a> |
+    <a href="https://git.libreoffice.org">source</a>
+  </li>
+</ul>
+
+<h2>Offline & local sharing</h2>
+<ul>
+  <li>
+    <strong>LocalSend</strong> — Share files over local Wi-Fi.<br/>
+    <a href="https://localsend.org">localsend.org</a> |
+    <a href="https://github.com/localsend/localsend">GitHub mirror</a>
+  </li>
+
+  <li>
+    <strong>USB drives / MicroSD cards</strong><br/>
+    <span class="small">Still reliable. Works everywhere. Hard to block.</span>
+  </li>
+
+  <li>
+    <strong>Local Wi-Fi servers</strong><br/>
+    <span class="small">One device shares files nearby without internet.</span>
+  </li>
+</ul>
+
+<h2>If you’re under surveillance, protest, or disaster conditions</h2>
+<ul>
+  <li>Prefer offline tools: <strong>Briar (local mode)</strong>, <strong>Syncthing over LAN</strong>, USB drives.</li>
+  <li>Use Tor Browser to access blocked websites safely.</li>
+  <li>Do not assume devices are secure; consider using a clean device for sensitive work.</li>
+  <li>Share files locally or via encrypted links instead of public cloud services.</li>
+</ul>
+
+<h2>About mirrors</h2>
+<p>
+Some tools are listed with more than one link. These are mirrors — alternate places to get the same software.  
+If one site is blocked or disappears, the tool still exists elsewhere.
+</p>
+
+<footer>
+Tools don’t replace trust or community.<br/>
+But the right tools can help protect them.<br/>
+License: CC0 — copy, share, and mirror freely.
+</footer>
+
+</main>
+</body>
+</html>
